@@ -1,9 +1,9 @@
 cask "dockterm" do
   arch arm: "Apple-Silicon", intel: "Intel"
 
-  version "0.31.0"
-  sha256 arm:   "cdd2f04bfaad4eb1c32ec0875c2c64c44e6211a50156ab7bb28ac12750de2dd9",
-         intel: "459a254afa81c374975e46e095fbd29e97bbc97ae9d4851e9c9bf47eaf521013"
+  version "0.32.3"
+  sha256 arm:   "da86a83a3381e91a5f868ce2836b6f6bb01962897c7c417c3984cb7a30f543cc",
+         intel: "80230d04d645726fbc8639ce3618fe24528102bb14b939cb2984f35f9ddb4b6e"
 
   url "https://github.com/munvard/dockterm/releases/download/v#{version}/DockTerm-#{version}-macOS-#{arch}.dmg"
   name "DockTerm"
